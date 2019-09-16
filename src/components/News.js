@@ -27,7 +27,7 @@ render(){
 
           
           <div className= "Patty">
-          This is my personal site but here is my Online Snowboard School Blog.
+          This is my personal site but here is my Online Snowboard School Blog. Enjoy!
           <p>
               Website:{" "}
               <a className="blue" href="https://flowingfreeride.com/free-snowboard-tips/">
