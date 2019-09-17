@@ -20,38 +20,44 @@ render(){
           <div className="background">
           <div className= "Patty">
           
-          <br>
-          </br>
-          <p>
-              Corporate TV and video work for Sandy City.
-          </p>
+          <br></br>
+          <div className="flex">
+          <h1><strong>Corporate TV and video work for Sandy City.</strong></h1>
+          </div>
+          <div className="flex">
           <iframe title="vimeo-player" src="https://player.vimeo.com/video/289768833" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           <br></br>
           <iframe src="https://player.vimeo.com/video/289774752" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           <br></br>
+          </div>
+          <div className="flex">
           <iframe title="whodat" width="560" height="315" src="https://www.youtube.com/embed/gFH11JSWv-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br></br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/n_V8duAv6B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br></br> 
-          <p>
-              Corporate TV and video work for Utah Division of Air Quality.
-          </p>
+        </div>
+        <hr></hr> 
+        <div className="flex">
+          <h1><strong>Corporate TV and video work for Utah Division of Air Quality.</strong></h1>
+          </div>
+          <div className="flex">
           <iframe src="https://player.vimeo.com/video/51310539" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+          <hr></hr>
+          <div className="flex">
+          <h1><strong>Corporate Video and photography work for Vail Resorts.</strong> </h1>
+          </div>
           <br></br>
-          <p>Corporate Video and photography work for Vail Resorts </p>
-          <br></br>
-          <div class="row">
+          <div class="flex">
           <h2>
             <img
-              src={require("../Scott Hero.png")} alt="scott" style={{ height: "300px" }}
-            />
+              src={require("../Scott Hero.png")} alt="scott" style={{ height: "300px" }}/>
             </h2>
             <h2>
             <img
               src={require("../Scott3.jpg")} alt="scott" style={{ height: "300px" }}/>
             </h2>
             </div>
-            <div class="row">
+            <div class="flex">
             <h2>
             <img
               src={require("../Sue Hero.png")} alt="scott" style={{ height: "300px" }}/>
@@ -62,25 +68,27 @@ render(){
             />
           </h2>
           </div>
-          <div class="row">
+          <div class="flex">
           <h2>
-            <img
-              src={require("../Scott2.jpg")} alt="scott" style={{ height: "300px" }}
-            />
+            <img src={require("../Scott1.jpg")} alt="scott" style={{ height: "300px" }}/>
           </h2>
           <h2>
-            <img
-              src={require("../Scott1.jpg")} alt="scott" style={{ height: "300px" }}
-            />
+            <img src={require("../Scott2.jpg")} alt="scott" style={{ height: "300px" }}/>
           </h2>
           </div>
+          <br></br>
+          <div className="flex">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/FwJUfwfp2dU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/1O1kYq5gEII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div className="flex">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/er5MByVYbPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/w8iuxSEHSS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <p>
-              Flowing Freeride Online Snowboard School.
-          </p>
+          </div>
+          <hr></hr>
+          <div className="flex">
+          <h1><strong>Flowing Freeride Online Snowboard School.</strong></h1>
+          </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/yib88ACUne4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/xaaLh71z4gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/_o-NmpRIE2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -96,6 +104,7 @@ render(){
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ryh2Hw4E2lA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/wdqSdIQjWSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br/>
+          <hr></hr>
           <div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <a href="https://www.facebook.com/blake.t.clark" class="fa fa-facebook"></a>
