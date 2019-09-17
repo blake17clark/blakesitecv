@@ -28,10 +28,7 @@ class Home extends React.Component {
     <i className="fa fa-bars"></i>
   </a>
 </div>     */}
-          <div id="header" />
-          <div className="left" />
-          <div className="right" />
-          <div className="stuff" />
+        
           <br />
           <br />
           <h1>CV/RESUME </h1>
@@ -55,9 +52,11 @@ class Home extends React.Component {
             </a>{" "}
             Blake.17clark@gmail.com
           </h3>
+          <div className="flex">
           <h2>
-            <img src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "150px" }}/>
+            <img className="roundcorners" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "250px" }}/>
           </h2>
+          </div>
           <hr />
           <br />
           <p className="red">

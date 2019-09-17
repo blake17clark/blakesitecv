@@ -17,6 +17,15 @@ body {
   padding-right: 30px;
   height: 100%;
 }
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.roundcorners{
+  border-radius: 25px;
+  align-content: center;
+  display: flex;
+}
 
 .background{
 background-color: rgb(179, 224, 235);
