@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import * as emailjs from 'emailjs-com';
 
 import '../App.css';
 
@@ -28,8 +29,14 @@ class Contact extends React.Component{
     handleChange = ({ target }) => {
         this.setState( { [target.name]: target.value } );
       };
-     resetform = () => {
-         alert ("I Will Respond Shortly Cheers!")
+     resetform = (e) => {
+       e.preventDefault()
+      emailjs.send(
+        "gmail", "contact",
+        this.state, "user_0nNsfJBF6xSvaKUFotdH9"
+      )
+         .then(alert ("I Will Respond Shortly Cheers!"))
+         .then(document.location.reload(true))
     //     this.setState(
     //         {
     //             firstName: "",
@@ -124,7 +131,7 @@ render(){
 
            <br></br>     
            <br></br>     
-                <input  type="submit" value="send"></input>
+                <button type="submit" value="send">Send</button>
                 
             </form>
 

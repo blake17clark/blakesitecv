@@ -283,8 +283,9 @@ class Home extends React.Component {
             <p><strong>KUED Channel 7</strong> | SLC, UT | Technical/Craft/Long
               Format TV | 01/2013-04/2013</p>
             <li>
-              Worked with pros on projects including Utah Bucketlist: PowderDay, field/studio/post/audio
+              Worked with pros on projects including Utah Bucketlist: PowderDay
             </li>
+            <li>Traveled in the field and in studio control room/post/audio</li>
             <li>
               Gained experience working with high profile public figures such as
               Jesse Jackson
@@ -294,7 +295,7 @@ class Home extends React.Component {
               producer position
             </li>
             <br/>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sgC8-lf7pnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/sgC8-lf7pnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </section>
           </div>
             <br />

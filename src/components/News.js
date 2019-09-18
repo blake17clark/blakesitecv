@@ -31,20 +31,20 @@ render(){
           </div>
           <div className="flex">   
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://www.facebook.com/blake.t.clark" class="fa fa-facebook"></a>
+            <a href="https://www.facebook.com/blake.t.clark" className="fa fa-facebook"></a>
             </div>
            <div className="flex">
-            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" class="fa fa-youtube"></a>
+            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" className="fa fa-youtube"></a>
             </div>
             <div>
             <div className = "flex" id="div3">
-            <a href="https://www.linkedin.com/in/blaketholenclark/" class="fa fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/blaketholenclark/" className="fa fa-linkedin"></a>
             </div>
             <div div className = "flex" id="div4">
-            <a href="https://twitter.com/@flowingfreeride" class="fa fa-twitter"></a>
+            <a href="https://twitter.com/@flowingfreeride" className="fa fa-twitter"></a>
             </div>
             <div className = "flex" id="div5">
-            <a href="https://vimeo.com/blaketholenclark" class="fa fa-vimeo"></a>
+            <a href="https://vimeo.com/blaketholenclark" className="fa fa-vimeo"></a>
             </div>
             <br/> 
           <br/> 
