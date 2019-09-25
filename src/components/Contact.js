@@ -78,8 +78,9 @@ render(){
           <Link className="active" to="/Contact/">Contact</Link>
           </div>
         <div className = "Patty">
+          <br></br>
         <div className="flex">
-            Thanks for  visiting my website. I built it and always welcome your feedback.
+            <div className="text">Thanks for  visiting my website. I built it and always welcome your feedback.</div>
         </div>
         <br>
         </br>
@@ -127,15 +128,17 @@ render(){
             value={this.state.content}
             onChange={this.handleChange}
             required
-          />
-
-           <br></br>     
+          />     
            <br></br>     
                 <button type="submit" value="send">Send</button>
+                <br></br>
+                <br></br>
                 
             </form>
-
-            </div>
+        </div>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>

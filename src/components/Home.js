@@ -44,17 +44,20 @@ class Home extends React.Component {
           <h1>Experienced in Corporate and Independent Productions: 801.712.2824</h1>
           </div>
             <div className="flex">
+              <div className="container">
+            <h3>
+            <img className="round" id="image" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "150px" }}/>
+          </h3>
+          <div className="middle">
+            <div className="text">Welcome! See You On The Slope Mates!</div>
+          </div>
+          </div>
             <h1>
             <a className="blue" href="https://vimeo.com/blaketholenclark"> REELS |</a>
             <a className="blue" href="https://www.linkedin.com/feed/">LINKEDIN |</a>
             <a className="blue" href="https://github.com/blake17clark">GitHub |</a>
             <a className="blue"> Blake.17clark@gmail.com</a>
           </h1>
-          </div>
-          <div className="flex">
-          <h2>
-            <img className="roundcorners" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "250px" }}/>
-          </h2>
           </div>
           <hr />
           <br />
@@ -133,11 +136,13 @@ class Home extends React.Component {
           </section>
           </div>
           <br />
-          <div className="flex">
+          <div className="flex" id="neg">
           <section>
             <p>
-              <strong>Park City/Vail Resorts</strong> | Park City, Utah | TV
-              Producer | 1/2013-Present
+              <strong>Park City/Vail Resorts</strong> | Park City, Utah | 
+              <br></br>
+              TV
+              Producer/Snowboard Coach | 1/1999-Present
             </p>
             <li>
               Setup TV studio: Lighting, cameras, mics, greenscreen, drapes,
@@ -173,7 +178,7 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-            <div className="flex">
+            <div className="flex" id="neg2">
             <section>
             <p>
               <strong>Sandy City</strong> | Sandy, Utah | Freelance TV Producer
@@ -324,8 +329,9 @@ class Home extends React.Component {
           </section>
           </div>
           <br />
-          <div className="flex">
-          <section className="grey">
+          <div id="grey">
+          <div className="flex" id="grey">
+          <section>
             <p className="red"><strong>EDUCATION</strong></p>
             <li>Helio Full-Stack Web Development • Web Dev Intensive | 2019</li>
             <li>London Film School, UK • Directors Intensive | 2017</li>
@@ -340,8 +346,8 @@ class Home extends React.Component {
             </li>
             </section>
             </div>
-            <br />
-            <div className="flex">
+            <br id="grey" />
+            <div className="flex" id="grey">
               <section>
             <p className="red"><strong>SKILLS</strong></p>
             <p>
@@ -384,6 +390,7 @@ class Home extends React.Component {
               Ikan, Kino Flo
             </li>
           </section>
+          </div>
           </div>
           <br/>
           <br/>
