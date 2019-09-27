@@ -32,11 +32,17 @@ class Home extends React.Component {
           <br />
           <br />
           <div className="flex">
-          
+          <div id="container" >
+<p className="p"><a href="https://en.wikipedia.org/wiki/Red">
+    <em id="word">Blake Tholen Clark</em>
+  </a></p>
+<div className="flex">
           <h1 className="red">
-            <strong> BLAKE THOLEN CLARK–</strong> Filmmaker TV Producer/Director
+            Filmmaker TV Producer/Director
             | Full Stack Developer
           </h1>
+          </div>
+          </div>
           </div>
           <hr></hr>
           <div className="flex">

@@ -22,7 +22,7 @@ render(){
           
           <br></br>
           <div className="flex">
-          <h1><strong>Corporate TV and video work for Sandy City.</strong></h1>
+          <h1 className="word"><strong>Corporate TV and video work for Sandy City.</strong></h1>
           </div>
           <div className="flex">
           <iframe title="vimeo-player" src="https://player.vimeo.com/video/289768833" width="640" height="360" frameborder="0" allowfullscreen></iframe>
@@ -37,14 +37,14 @@ render(){
         </div>
         <hr></hr> 
         <div className="flex">
-          <h1><strong>Corporate TV and video work for Utah Division of Air Quality.</strong></h1>
+          <h1 className="word"><strong>Corporate TV and video work for Utah Division of Air Quality.</strong></h1>
           </div>
           <div className="flex">
           <iframe src="https://player.vimeo.com/video/51310539" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
           <hr></hr>
           <div className="flex">
-          <h1><strong>Corporate Video and photography work for Vail Resorts.</strong> </h1>
+          <h1 className="word"><strong>Corporate Video and photography work for Vail Resorts.</strong> </h1>
           </div>
           <br></br>
           <div class="flex">
@@ -87,7 +87,7 @@ render(){
           </div>
           <hr></hr>
           <div className="flex">
-          <h1><strong>Flowing Freeride Online Snowboard School.</strong></h1>
+          <h1 className="word"><strong>Flowing Freeride Online Snowboard School.</strong></h1>
           </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/yib88ACUne4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/xaaLh71z4gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
