@@ -79,8 +79,11 @@ render(){
           </div>
         <div className = "Patty">
           <br></br>
-        <div className="flex">
-            <div className="text">Thanks for  visiting my website. I built it and always welcome your feedback.</div>
+          <div id="container">
+<p className="p"><a href="https://en.wikipedia.org/wiki/Red">
+    <em className="word">Send Me Feedback!</em>
+  </a></p>
+</div>
         </div>
         <br>
         </br>
@@ -149,7 +152,7 @@ render(){
           </div>
           </div>
             </div>
-    </div>
+   
   );
   
   
