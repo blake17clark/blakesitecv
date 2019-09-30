@@ -45,6 +45,10 @@ body {
   display: flex;
   margin-right: 30px;
 }
+.circle {
+  border-radius: 100%
+  
+}
 
 #image {
   opacity: 1;

@@ -87,7 +87,7 @@ render(){
         </div>
         <br>
         </br>
-
+      <div className="flex">
           <div className = "form">
             <form id="jerry" onSubmit={this.resetform} >
                 
@@ -139,11 +139,16 @@ render(){
                 
             </form>
         </div>
+        </div>
+        <h3 className="flex">
+            <img className="circle" id="" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "250px" }}/>
+          </h3>
             <br/>
             <br/>
             <br/>
             <br/>
             <div>
+            <a href="https://vimeo.com/blaketholenclark" className="fa fa-vimeo"></a>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <a href="https://www.facebook.com/blake.t.clark" className="fa fa-facebook"></a>
             <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" className="fa fa-youtube"></a>
