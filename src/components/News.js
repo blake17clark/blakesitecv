@@ -41,12 +41,12 @@ render(){
 
 
             <div className = "flex" id="div5">
-            <a href="https://vimeo.com/blaketholenclark" className="fa fa-vimeo"></a>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://www.facebook.com/blake.t.clark" className="fa fa-facebook"></a>
-            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" className="fa fa-youtube"></a>
-            <a href="https://www.linkedin.com/in/blaketholenclark/" className="fa fa-linkedin"></a>
-            <a href="https://twitter.com/@flowingfreeride" className="fa fa-twitter"></a>
+            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i class="fab fa-vimeo" id="bigger"></i></a>
+            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i class="fab fa-facebook-square" id="bigger"></i></a>
+            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="_blank"><i class="fab fa-youtube" id="bigger"></i></a>
+            <a href="https://www.linkedin.com/in/blaketholenclark/" target="_blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
+            <a href="https://twitter.com/@flowingfreeride" target="_blank"><i class="fab fa-twitter-square" id="bigger"></i></a>
           </div>
             <br/> 
           <br/> 

@@ -55,13 +55,18 @@ class Home extends React.Component {
             <img className="round" id="image" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "150px" }}/>
           </h3>
           <div className="middle">
-            <div className="text">Welcome! See You On The Slope Mates!</div>
+            <div className="text">
+            <a className="blue" href="https://flowingfreeride.com/" target="_blank"> Welcome! See You On The Slope Mates!</a>
+            </div>
           </div>
           </div>
+
+          </div>
+          <div className="flex">
             <h1>
-            <a className="blue" href="https://vimeo.com/blaketholenclark"> REELS |</a>
-            <a className="blue" href="https://www.linkedin.com/feed/">LINKEDIN |</a>
-            <a className="blue" href="https://github.com/blake17clark">GitHub |</a>
+            <a className="blue" href="https://vimeo.com/blaketholenclark" target="_blank"> REELS |</a>
+            <a className="blue" href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN |</a>
+            <a className="blue" href="https://github.com/blake17clark" target="_blank">GitHub |</a>
             <a className="blue"> Blake.17clark@gmail.com</a>
           </h1>
           </div>
@@ -126,16 +131,13 @@ class Home extends React.Component {
             </li>
             <p>
               Websites:{" "}
-              <a className="blue" href="https://flowingfreeride.com/">
+              <a className="blue" href="https://flowingfreeride.com/" target="_blank">
                 Flowingfreeride.com,
               </a>{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw/featured"
-              >
+              <a className="blue" href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw/featured" target="_blank">
                 Flowing Freeride YouTube
               </a>{" "}
-              <a className="blue" href="https://snowboardclass.com/">
+              <a className="blue" href="https://snowboardclass.com/" target="_blank">
                 & Snowboardclass.com
               </a>
             </p>
@@ -164,19 +166,13 @@ class Home extends React.Component {
             </li>
             <p>
               Video Work:{" "}
-              <a className="blue" href="https://youtu.be/1O1kYq5gEII">
+              <a className="blue" href="https://youtu.be/1O1kYq5gEII" target="_blank">
                 Pond Skim,
               </a>{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=FwJUfwfp2dU"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=FwJUfwfp2dU" target="_blank">
                 Teaching Model
               </a>{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=er5MByVYbPc"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=er5MByVYbPc" target="_blank">
                 {" "}
                 & Spring Conditons.
               </a>
@@ -196,22 +192,13 @@ class Home extends React.Component {
             </li>
             <p>
               Video Work:{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=gFH11JSWv-k&t=11s"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=gFH11JSWv-k&t=11s" target="_blank">
                 Scald Burns,
               </a>{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=-mM5l0pdfWA"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=-mM5l0pdfWA" target="_blank">
                 Remember 9-11
               </a>{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=i8mCnmAkQRE"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=i8mCnmAkQRE" target="_blank">
                 {" "}
                 & Healing Field.
               </a>
@@ -273,16 +260,10 @@ class Home extends React.Component {
             </li>
             <p>
               Productions Crewed On:{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=x8_iD3MW4ms"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=x8_iD3MW4ms" target="_blank">
                 SLC Auditions
               </a>{" "}
-              <a
-                className="blue"
-                href="https://www.youtube.com/watch?v=3WY8zSDGahM"
-              >
+              <a className="blue" href="https://www.youtube.com/watch?v=3WY8zSDGahM" target="_blank">
                 & SLC Show
               </a>
             </p>
@@ -402,11 +383,12 @@ class Home extends React.Component {
           <br/>
           <div className="flex">
             <section>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://www.facebook.com/blake.t.clark" class="fa fa-facebook"></a>
-            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" class="fa fa-youtube"></a>
-            <a href="https://www.linkedin.com/in/blaketholenclark/" class="fa fa-linkedin"></a>
-            <a href="https://twitter.com/@flowingfreeride" class="fa fa-twitter"></a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i class="fab fa-vimeo" id="bigger"></i></a>
+            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i class="fab fa-facebook-square" id="bigger"></i></a>
+            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="_blank"><i class="fab fa-youtube" id="bigger"></i></a>
+            <a href="https://www.linkedin.com/in/blaketholenclark/" target="_blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
+            <a href="https://twitter.com/@flowingfreeride" target="_blank"><i class="fab fa-twitter-square" id="bigger"></i></a>
           </section>
           </div>
 

@@ -55,6 +55,7 @@ body {
   transition: .5s ease;
   backface-visibility: hidden;
   display: block;
+  margin: 0 0 0 133px;
   
 }
 .container:hover .image {
@@ -78,12 +79,12 @@ body {
 
 }
 .text {
-  background-color: rgb(175, 39, 39);
+  background-color: rgb(202, 190, 190);
   border-radius: 25px;
   color: white;
-  font-size: 16px;
+  font-size: 33px;
   padding: 16px 32px;
-  font-family: 'helvetica, mansalva, courier, verdana'
+  font-family: 'Montserrat, helvetica, mansalva, courier, verdana'
 }
 
 .background{

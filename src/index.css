@@ -12,6 +12,16 @@ code {
     monospace;
 }
 
+#bigger {
+  font-size: 7rem;
+  margin: 10px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#bigger:hover{
+  color: rgb(104, 82, 82)
+}
+
 /*Neon*/
 .p {
   text-align: center;
