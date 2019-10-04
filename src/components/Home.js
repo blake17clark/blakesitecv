@@ -37,7 +37,7 @@ class Home extends React.Component {
     <em id="word">Blake Tholen Clark</em>
   </a></p>
 <div className="flex">
-          <h1 className="red">
+          <h1 className="red" id="rokkitt">
             Filmmaker TV Producer/Director
             | Full Stack Developer
           </h1>
@@ -45,9 +45,9 @@ class Home extends React.Component {
           </div>
           </div>
           <hr></hr>
-          <div className="flex">
+          <div className="flex" id="rokkitt">
           <br></br>
-          <h1>Experienced in Corporate and Independent Productions: 801.712.2824</h1>
+          <h1 id="rokkitt">Experienced in Corporate and Independent Productions: 801.712.2824</h1>
           </div>
             <div className="flex">
               <div className="container">
@@ -56,25 +56,25 @@ class Home extends React.Component {
           </h3>
           <div className="middle">
             <div className="text">
-            <a className="blue" href="https://flowingfreeride.com/" target="_blank"> Welcome! See You On The Slope Mates!</a>
+            <a className="blue" id="rokkitt" href="https://flowingfreeride.com/" target="_blank"> Welcome! See You On The Slope Mates!</a>
             </div>
           </div>
           </div>
 
           </div>
-          <div className="flex">
+          <div className="flex" id="rokkitt">
             <h1>
             <a className="blue" href="https://vimeo.com/blaketholenclark" target="_blank"> REELS |</a>
-            <a className="blue" href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN |</a>
-            <a className="blue" href="https://github.com/blake17clark" target="_blank">GitHub |</a>
+            <a className="blue" href="https://www.linkedin.com/feed/" target="_blank"> LINKEDIN |</a>
+            <a className="blue" href="https://github.com/blake17clark" target="_blank"> GitHub |</a>
             <a className="blue"> Blake.17clark@gmail.com</a>
           </h1>
           </div>
           <hr />
           <br />
-          <div className="flex">
-          <section>
-          <p className="red"><strong>PROJECTS</strong></p>
+          <div className="flex" id="rokkitt">
+          <section className="neg3">
+          <h1 className="red"><strong>PROJECTS</strong></h1>
           <p><strong>Ambi Quality Assurance</strong> | Salt Lake City, Utah | Assistant Developer| 7/2019–Present</p>
             <li>Ran QA tests on Ambi platform to debug student interaction platform</li>
             <li>
@@ -93,15 +93,15 @@ class Home extends React.Component {
             <br/>
             <p><strong>Job Track App</strong> | Web Developer | Salt Lake City, Utah | 7/2019–Present {" "}</p>
             <li>
-            Developed job tracker full stack app with mob programming group style at Helio 
+            Developed job tracker full stack app with mob programming group style with functioning CRUD at Helio 
             </li>
             </section>
             </div>
 
             <br/>
-            <div className="flex">
+            <div className="flex" id="rokkitt">
             <section> 
-            <p className="red"><strong>FILM AWARDS EARNED 2018</strong></p><strong>48 Hour Film Project 2018</strong> | SLC, Utah | Director of Photography & Editing | P.O.V {" "}
+            <h1 className="red"><strong>FILM AWARDS EARNED 2018</strong></h1><strong>48 Hour Film Project 2018</strong> | SLC, Utah | Director of Photography & Editing | P.O.V {" "}
             <li>
             Handled production & editing, camera-operation, sound, lighting, outdoor shoot etc.
             </li>
@@ -113,9 +113,9 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-           <div className="flex">
+           <div className="flex" id="rokkitt">
              <section>
-          <p className="red"><strong>EXPERIENCE</strong></p>
+          <h1 className="red"><strong>EXPERIENCE</strong></h1>
             <p><strong>Flowing Freeride</strong> | Park City, Utah | Head Developer & Spokesperson | 5/2013–Present</p>
             <li>
               Developed & launched passion project of online video snowboard
@@ -141,11 +141,12 @@ class Home extends React.Component {
                 & Snowboardclass.com
               </a>
             </p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/wdqSdIQjWSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </section>
           </div>
           <br />
           <div className="flex" id="neg">
-          <section>
+          <section id="rokkitt">
             <p>
               <strong>Park City/Vail Resorts</strong> | Park City, Utah | 
               <br></br>
@@ -180,8 +181,8 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-            <div className="flex" id="neg2">
-            <section>
+            <div className="flex">
+            <section id="rokkitt">
             <p>
               <strong>Sandy City</strong> | Sandy, Utah | Freelance TV Producer
               | 8/2018-11/2018
@@ -203,10 +204,11 @@ class Home extends React.Component {
                 & Healing Field.
               </a>
             </p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/i8mCnmAkQRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             </div>
             <br />
-            <div className="flex">
+            <div className="flex" id="rokkitt">
               <section>
             <p>
               <strong>KTV/Kroger</strong> | SLC, UT | Corporate TV Producer/Director | 10/2013-11/2016</p>
@@ -231,7 +233,7 @@ class Home extends React.Component {
            </section>
            </div>
             <br />
-            <div className="flex">
+            <div className="flex" id="rokkitt">
               <section>
             <p>
               <strong>Utah State Government Short Public Films</strong> | SLC,
@@ -250,8 +252,8 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-            <div className="flex">
-              <section>
+            <div className="flex" id="neg2">
+              <section id="rokkitt">
             <p><strong>American Idol/19 Entertainment</strong> | SLC, UT | Camera
               Operator | 07/2013-10/2013</p>
             <li>
@@ -270,7 +272,7 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-            <div className="flex">
+            <div className="flex" id="rokkitt">
             <section>
             <p><strong>KUED Channel 7</strong> | SLC, UT | Technical/Craft/Long
               Format TV | 01/2013-04/2013</p>
@@ -291,7 +293,7 @@ class Home extends React.Component {
           </section>
           </div>
             <br />
-            <div className="flex">
+            <div className="flex" id="rokkitt">
             <section>
             <p><strong>Les Rencontres Indie Short</strong> | Montréal, QC |
               5/2012–8/2012 | Dir./Screenwriter/Editor
@@ -318,8 +320,8 @@ class Home extends React.Component {
           <br />
           <div id="grey">
           <div className="flex" id="grey">
-          <section>
-            <p className="red"><strong>EDUCATION</strong></p>
+          <section className="neg" id="rokkitt">
+            <h1 className="red"><strong>EDUCATION</strong></h1>
             <li>Helio Full-Stack Web Development • Web Dev Intensive | 2019</li>
             <li>London Film School, UK • Directors Intensive | 2017</li>
             <li>
@@ -333,10 +335,10 @@ class Home extends React.Component {
             </li>
             </section>
             </div>
-            <br id="grey" />
+            <br id="grey"/>
             <div className="flex" id="grey">
-              <section>
-            <p className="red"><strong>SKILLS</strong></p>
+              <section className="neg2" id="rokkitt">
+            <h1 className="red"><strong>SKILLS</strong></h1>
             <p>
                 <strong>Web Development</strong>
             </p>
@@ -367,8 +369,8 @@ class Home extends React.Component {
             </div>
             <br />
             <div className="flex">
-              <section>
-            <p className="red"><strong>TECHNOLOGIES</strong></p>
+              <section className="neg3" id="rokkitt">
+            <h1 className="red"><strong>TECHNOLOGIES</strong></h1>
             <li>
               Final Cut 7/X • Premiere CC • After Effects/Flash/CC
               Dreamweaver/PS/CC Illustrator/Adobe CC </li>

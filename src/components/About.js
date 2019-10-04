@@ -25,7 +25,7 @@ render(){
           <br></br>
           <div id="container">
 <p className="p"><a href="https://en.wikipedia.org/wiki/Red">
-    <em className="word">Demo & Portfolio Work</em>
+    <em id="word">Demo & Portfolio Work</em>
   </a></p>
 </div>
           <div className="flex">

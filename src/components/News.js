@@ -23,11 +23,11 @@ render(){
        <div className="Logo">
 
          
-          <div className= "flex">
+          <div className= "flex" id="rokkitt">
             
           <h1>This is my Online Snowboard School Blog Flowing Freeride. Enjoy!</h1>
           </div>
-          <div className="flex">
+          <div className="flex" id="rokkitt">
             
             <h1>Website: <a className="red" href="https://flowingfreeride.com/free-snowboard-tips/">
                   Flowing Freeride Tips & Bribes</a>

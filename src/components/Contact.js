@@ -81,7 +81,7 @@ render(){
           <br></br>
           <div id="container">
 <p className="p"><a href="https://en.wikipedia.org/wiki/Red">
-    <em className="word">Send Me Feedback!</em>
+    <em id="word">Send Me Feedback!</em>
   </a></p>
 </div>
         </div>
