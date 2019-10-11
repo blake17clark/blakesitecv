@@ -56,7 +56,7 @@ class Home extends React.Component {
           </h3>
           <div className="middle">
             <div className="text">
-            <a className="blue" id="rokkitt" href="https://flowingfreeride.com/" target="_blank"> Welcome! See You On The Slope Mates!</a>
+            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! Come Snowboarding Mates!</a>
             </div>
           </div>
           </div>

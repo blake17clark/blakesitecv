@@ -89,7 +89,7 @@ render(){
         </br>
       <div className="flex">
           <div className = "form">
-            <form id="jerry" onSubmit={this.resetform} >
+            <form onSubmit={this.resetform} >
                 
             <br></br>
             <input
@@ -133,7 +133,7 @@ render(){
             required
           />     
            <br></br>     
-                <button type="submit" class="btn btn-outline-secondary" value="send"><i class="fas fa-paper-plane"></i> Send</button>
+                <button type="submit" className="btn btn-outline-secondary" value="send"><i className="fas fa-paper-plane"></i> Send</button>
                 <br></br>
                 <br></br>
                 
