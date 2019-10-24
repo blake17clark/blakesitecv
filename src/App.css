@@ -10,14 +10,15 @@
   height: 100%;
 }
 .word {
-  font-family: 'Roboto+Condensed', 'monstserrat', 'Rokkitt', 'Shadows+Into+Light' ,cursive;
+  font-family: 'times', 'helvetica';
 }
 #word{
   font-family: 'Luckiest Guy', cursive;
 }
 
 #rokkitt {
-  font-family: 'Rokkitt', 'helvetica';
+  font-family: 'times', 'helvetica';
+  font-size: 25px;
   
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 #neg2 {
-  margin-left: -110px;
+  margin-left: -20px;
 }
 .neg {
   margin-left: -90px;
@@ -47,7 +48,7 @@ body {
 }
 
 .neg3 {
-  margin-left: 70px;
+  margin-left: 180px;
 }
 
 .flex{

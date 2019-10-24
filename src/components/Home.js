@@ -181,8 +181,8 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-            <div className="flex">
-            <section id="rokkitt">
+            <div className="flex" id="rokkitt">
+            <section id="neg">
             <p>
               <strong>Sandy City</strong> | Sandy, Utah | Freelance TV Producer
               | 8/2018-11/2018
@@ -252,8 +252,8 @@ class Home extends React.Component {
             </section>
             </div>
             <br />
-            <div className="flex" id="neg2">
-              <section id="rokkitt">
+            <div className="flex" id="rokkitt">
+              <section id="neg2">
             <p><strong>American Idol/19 Entertainment</strong> | SLC, UT | Camera
               Operator | 07/2013-10/2013</p>
             <li>
@@ -318,9 +318,10 @@ class Home extends React.Component {
           </section>
           </div>
           <br />
+          <div className="flex">
           <div id="grey">
-          <div className="flex" id="grey">
-          <section className="neg" id="rokkitt">
+          <div className="flex">
+          <section id="rokkitt">
             <h1 className="red"><strong>EDUCATION</strong></h1>
             <li>Helio Full-Stack Web Development • Web Dev Intensive | 2019</li>
             <li>London Film School, UK • Directors Intensive | 2017</li>
@@ -336,7 +337,7 @@ class Home extends React.Component {
             </section>
             </div>
             <br id="grey"/>
-            <div className="flex" id="grey">
+            <div id="grey">
               <section className="neg2" id="rokkitt">
             <h1 className="red"><strong>SKILLS</strong></h1>
             <p>
@@ -379,6 +380,7 @@ class Home extends React.Component {
               Ikan, Kino Flo
             </li>
           </section>
+          </div>
           </div>
           </div>
           <br/>
