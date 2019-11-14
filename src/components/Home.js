@@ -253,7 +253,7 @@ class Home extends React.Component {
             </div>
             <br />
             <div className="flex" id="rokkitt">
-              <section id="neg2">
+              <section>
             <p><strong>American Idol/19 Entertainment</strong> | SLC, UT | Camera
               Operator | 07/2013-10/2013</p>
             <li>
