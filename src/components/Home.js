@@ -56,7 +56,7 @@ class Home extends React.Component {
           </h3>
           <div className="middle">
             <div className="text">
-            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! Come Snowboarding Mates!</a>
+            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! Visit My Snowboard School Mates!</a>
             </div>
           </div>
           </div>
@@ -73,7 +73,7 @@ class Home extends React.Component {
           <hr />
           <br />
           <div className="flex" id="rokkitt">
-          <section className="neg3">
+          <section>
           <h1 className="red"><strong>PROJECTS</strong></h1>
           <p><strong>Ambi Quality Assurance</strong> | Salt Lake City, Utah | Assistant Developer| 7/2019–Present</p>
             <li>Ran QA tests on Ambi platform to debug student interaction platform</li>
@@ -145,7 +145,7 @@ class Home extends React.Component {
           </section>
           </div>
           <br />
-          <div className="flex" id="neg">
+          <div className="flex">
           <section id="rokkitt">
             <p>
               <strong>Park City/Vail Resorts</strong> | Park City, Utah | 
@@ -182,7 +182,7 @@ class Home extends React.Component {
             </div>
             <br />
             <div className="flex" id="rokkitt">
-            <section id="neg">
+            <section>
             <p>
               <strong>Sandy City</strong> | Sandy, Utah | Freelance TV Producer
               | 8/2018-11/2018
@@ -318,9 +318,9 @@ class Home extends React.Component {
           </section>
           </div>
           <br />
-          <div className="flex">
-          <div id="grey">
-          <div className="flex">
+          <div className="flex" id="grey">
+          <div >
+          <div>
           <section id="rokkitt">
             <h1 className="red"><strong>EDUCATION</strong></h1>
             <li>Helio Full-Stack Web Development • Web Dev Intensive | 2019</li>
@@ -337,15 +337,18 @@ class Home extends React.Component {
             </section>
             </div>
             <br id="grey"/>
-            <div id="grey">
-              <section className="neg2" id="rokkitt">
+            <div id="grey" className="flex">
+              <section id="rokkitt">
             <h1 className="red"><strong>SKILLS</strong></h1>
             <p>
                 <strong>Web Development</strong>
             </p>
             <li>
-            Research • WordPress • Wireframe/Layout • HTML, JS, CSS • Writing Code • React/Express/GitHub
-            • Visual Studio Code</li>
+            Research • WordPress • Wireframe/Layout • HTML, JS, CSS </li>
+            <li>
+            Writing Code • React/Express/GitHub
+            • Visual Studio Code
+            </li>
             <p>
               <strong>Preproduction</strong>
             </p>
@@ -357,26 +360,37 @@ class Home extends React.Component {
               <strong>Production</strong>
             </p>
             <li>
-              Cinematography • Lighting/Gaffer/Grip • Studio/Greenscreen • Live
+              Cinematography • Lighting/Gaffer/Grip • Studio/Greenscreen 
+            </li>
+            <li>
+            Live
               Broadcast • Camera Operator • Directing/Producing
             </li>
             <p><strong>Post</strong></p>
             <li>
               Editing • Visual Effects • Multimedia and Visuals • File
-              Codecs/Compression • Color Grading • Motion Graphics • 2D
-              Animation
+              Codecs/Compression 
+            </li>
+            <li>
+            • Color Grading • Motion Graphics • 2D Animation
             </li>
             </section>
             </div>
             <br />
-            <div className="flex">
-              <section className="neg3" id="rokkitt">
+            <div >
+              <section  id="rokkitt">
             <h1 className="red"><strong>TECHNOLOGIES</strong></h1>
             <li>
-              Final Cut 7/X • Premiere CC • After Effects/Flash/CC
-              Dreamweaver/PS/CC Illustrator/Adobe CC </li>
+              Final Cut 7/X • Premiere CC • After Effects/Flash
+               </li>
+               <li>
+               Dreamweaver/PS/CC Illustrator/Adobe CC
+               </li>
               <li>RED, Panasonic 100, Canon
-              5D/7D/60D, Sony FS7 XDCam & JVC ProHD • Tricaster • Lights:
+              5D/7D/60D, Sony FS7 
+            </li>
+            <li>
+            XDCam & JVC ProHD • Tricaster • Lights:
               Ikan, Kino Flo
             </li>
           </section>

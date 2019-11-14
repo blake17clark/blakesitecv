@@ -6,6 +6,9 @@
  margin-bottom: -1100px;
   
 }
+.carousel-item {
+  height: 500px;
+}
 .App {
   height: 100%;
 }
@@ -85,7 +88,7 @@ body {
   top: 40%;
   left: 30%;
   margin-right: 20%;
-  transform: translate(-5%, -270%);
+  transform: translate(11%, -170%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }

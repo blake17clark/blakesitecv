@@ -54,36 +54,34 @@ render(){
           <h1 className="word"><strong>Corporate Video and photography work for Vail Resorts.</strong> </h1>
           </div>
           <br></br>
-          <div class="flex">
+
+          
+          <section>
+        
+    <div className="flex">
           <h2>
-            <img
-              src={require("../Scott Hero.png")} alt="scott" style={{ height: "300px" }}/>
-            </h2>
-            <h2>
-            <img
-              src={require("../Scott3.jpg")} alt="scott" style={{ height: "300px" }}/>
+            <img src={require("../Scott Hero.png")} alt="scott" style={{ height: "300px" }}/>
+            <img src={require("../Scott3.jpg")} alt="scott" style={{ height: "300px" }}/>
             </h2>
             </div>
-            <div class="flex">
+     
+    <div className="flex">
             <h2>
-            <img
-              src={require("../Sue Hero.png")} alt="scott" style={{ height: "300px" }}/>
-          </h2>
-          <h2>
-            <img
-              src={require("../Sue3.jpg")} alt="scott" style={{ height: "300px" }}
-            />
+            <img src={require("../Sue Hero.png")} alt="scott" style={{ height: "300px" }}/>
+            <img src={require("../Sue3.jpg")} alt="scott" style={{ height: "300px" }}/>
           </h2>
           </div>
-          <div class="flex">
+     
+   
+    <div className="flex">
           <h2>
             <img src={require("../Scott1.jpg")} alt="scott" style={{ height: "300px" }}/>
-          </h2>
-          <h2>
             <img src={require("../Scott2.jpg")} alt="scott" style={{ height: "300px" }}/>
           </h2>
           </div>
-          <br></br>
+
+</section>
+           <br></br>
           <div className="flex">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/FwJUfwfp2dU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/1O1kYq5gEII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
