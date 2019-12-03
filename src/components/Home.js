@@ -52,11 +52,11 @@ class Home extends React.Component {
             <div className="flex">
               <div className="container">
             <h3>
-            <img className="round" id="image" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "150px" }}/>
+            <img className="round" id="image" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "250px" }}/>
           </h3>
           <div className="middle">
             <div className="text">
-            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! Visit My Snowboard School Mates!</a>
+            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! I Created An Online Snowboard School Visit Flowingfreeride!</a>
             </div>
           </div>
           </div>

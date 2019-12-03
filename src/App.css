@@ -20,14 +20,14 @@
 }
 
 #rokkitt {
-  font-family: 'times', 'helvetica';
+  font-family: 'Poppins', 'Montserrat', 'times', 'helvetica';
   font-size: 25px;
   
 }
 
 body {
  
-  height: 1257px;
+  
 }
 
 .Patty {
@@ -66,7 +66,8 @@ body {
   margin-right: 30px;
 }
 .circle {
-  border-radius: 100%
+  border-radius: 100%;
+  border: 5px solid goldenrod;
   
 }
 
@@ -75,7 +76,8 @@ body {
   transition: .5s ease;
   backface-visibility: hidden;
   display: block;
-  margin: 0 0 0 133px;
+  border: 5px solid #3B5998;
+  margin: 1 0 0 133px;
   
 }
 .container:hover .image {
@@ -88,7 +90,7 @@ body {
   top: 40%;
   left: 30%;
   margin-right: 20%;
-  transform: translate(11%, -170%);
+  transform: translate(11%, -200%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -104,6 +106,7 @@ body {
   border-radius: 25px;
   color: white;
   font-size: 33px;
+  border: 5px solid #3B5998;
   padding: 16px 32px;
   font-family: 'Montserrat, helvetica, mansalva, courier, verdana'
 }
@@ -195,13 +198,14 @@ float:left;
 font-size:16px
 }
 input{
-width:80%;
+width:90%;
 margin-top:10px;
 height:10px;
 margin-bottom:2px;
-padding:10px;
+padding:15px;
 border:3px solid goldenrod;
-border-radius: 10px
+border-radius: 5px;
+font-size: 18px;
 
 
 }
@@ -250,7 +254,7 @@ float:right
 }
 
 .form {
-  border: solid goldenrod;
+  border: 7px solid goldenrod;
   width: 500px;
   height: 500px;
   display: flex;
