@@ -6,6 +6,10 @@
  margin-bottom: -1100px;
   
 }
+.myname {
+  position: fixed;
+  right: 1%;
+}
 .carousel-item {
   height: 500px;
 }

@@ -11,15 +11,7 @@ render(){
   return (
     <div>
         
-        <div className="topnav" id="myTopnav">
-          <Link  id="home" to="/"> Home</Link>
 
-          <Link to="/About/">About</Link>
-
-          <Link className="active" to="/News/">News</Link>
-
-          <Link to="/Contact/">Contact</Link>
-          </div>
        <div className="Logo">
 
          

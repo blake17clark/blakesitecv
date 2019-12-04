@@ -7,22 +7,25 @@ class About extends React.Component{
 render(){
   return (
     <div className="App">
-        <div className="topnav" id="myTopnav">
-          <Link id="home" to="/">Home</Link>
-
-          <Link className="active" to="/About/">About</Link>
-
-          <Link to="/News/">News</Link>
-
-          <Link to="/Contact/">Contact</Link>
-          
-          </div>
-          
+    
           <div className="background">
           <div className= "Patty">
             
           
           <br></br>
+          <div className="flex">
+              <div className="container">
+            <h3>
+            <img className="round" id="image" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "250px" }}/>
+          </h3>
+          <div className="middle">
+            <div className="text">
+            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! I Created An Online Snowboard School Visit Flowingfreeride!</a>
+            </div>
+          </div>
+          </div>
+
+          </div>
           <div id="container">
 <p className="p"><a href="https://en.wikipedia.org/wiki/Red">
     <em id="word">Demo & Portfolio Work</em>

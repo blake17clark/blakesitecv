@@ -68,15 +68,7 @@ render(){
     <div className="App">
       <div className="background">
         
-        <div className="topnav" id="myTopnav">
-          <Link  id="home" to="/"> Home</Link>
-
-          <Link to="/About/">About</Link>
-
-          <Link  to="/News/">News</Link>
-
-          <Link className="active" to="/Contact/">Contact</Link>
-          </div>
+ 
         <div className = "Patty">
           <br></br>
           <div id="container">
