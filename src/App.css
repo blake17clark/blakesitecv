@@ -94,8 +94,8 @@ body {
   top: 40%;
   left: 30%;
   margin-right: 20%;
-  transform: translate(11%, -200%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-5%, -220%);
+ 
   text-align: center;
 }
 .container:hover .middle {
