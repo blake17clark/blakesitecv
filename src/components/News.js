@@ -29,12 +29,12 @@ render(){
           <br></br>
           <div className="flex" id="rokkitt">
             
-            <h1>Want Free Stuff?!! <a className="red" href="https://flowingfreeride.com/free-snowboard-tips/">
+            <h1>Want Free Stuff?!! <a className="red" href="https://flowingfreeride.com/free-snowboard-tips/" target="_blank">
                   Click For Free Snowboard News, Tips & Bribes!!</a>
             </h1>
             </div>
           <div id="container">
-<p className="p"><a href="https://flowingfreeride.com/">
+<p className="p"><a href="https://flowingfreeride.com/" target="_blank">
     <em id="word">Learn To RideRight™!</em>
   </a></p>
 </div>

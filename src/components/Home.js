@@ -377,8 +377,8 @@ class Home extends React.Component {
           <br/>
           <br/>
           <div id="container" >
-<p className="p"><a href="https://en.wikipedia.org/wiki/Red">
-    <em id="word">Blake Tholen Clark</em>
+<p className="p"><a href="https://www.imdb.com/name/nm6087926/?ref_=fn_al_nm_1" target="_blank">
+    <em id="word">Blake Tholen Clark IMDb</em>
   </a></p>
           <div className="flex">
             <section>

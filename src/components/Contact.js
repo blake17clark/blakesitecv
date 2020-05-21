@@ -127,7 +127,7 @@ render(){
             rows = "5" cols = "50" name = "description"
             className="content"
             type="input"
-            placeholder="Message"
+            placeholder="Content"
             name="content"
             value={this.state.content}
             onChange={this.handleChange}
