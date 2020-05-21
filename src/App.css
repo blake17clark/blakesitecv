@@ -29,6 +29,12 @@
   
 }
 
+#demo {
+  font-family: 'Poppins', 'Montserrat', 'times', 'helvetica';
+  font-size: 55px;
+  
+}
+
 body {
  
   
@@ -95,7 +101,6 @@ body {
   left: 30%;
   margin-right: 20%;
   transform: translate(-5%, -220%);
- 
   text-align: center;
 }
 .container:hover .middle {
@@ -116,7 +121,7 @@ body {
 }
 
 .background{
-  background-image: linear-gradient(to top right, rgb(7, 186, 241), goldenrod);
+  background-image: rgb(234, 240, 241);
 }
 #grey{
   background-color: rgb(155, 151, 151);
@@ -207,7 +212,7 @@ margin-top:10px;
 height:10px;
 margin-bottom:2px;
 padding:15px;
-border:3px solid goldenrod;
+border:3px solid gb(14, 13, 13);
 border-radius: 5px;
 font-size: 18px;
 
@@ -215,12 +220,12 @@ font-size: 18px;
 }
 textarea{
 width:100%;
-border:3px solid goldenrod;
+border:3px solid rgb(14, 13, 13);
 padding:10px;
 margin-bottom:25px;
 margin-top:10px;
 height:100px;
-border-radius: 10px;
+border-radius: 5px;
 resize:none
 
 }
@@ -241,7 +246,7 @@ cursor:pointer;
 font-family:'Ubuntu',sans-serif
 }
 input:hover {
-  background-color: powderblue;
+  background-color: rgb(185, 191, 192);
   transition: background-color .5s;
   cursor: text;
 }
@@ -258,11 +263,11 @@ float:right
 }
 
 .form {
-  border: 7px solid goldenrod;
-  width: 500px;
+  /* border: 3px solid rgb(31, 30, 28); */
+  width: 700px;
   height: 500px;
   display: flex;
-  background-image: linear-gradient(to bottom right, rgb(241, 7, 7), rgb(7, 186, 241));
+  background-image: rgb(168, 171, 172);
   justify-content: center;
   align-self: center;
   margin-left: 100px;

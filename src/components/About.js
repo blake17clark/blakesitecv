@@ -13,26 +13,14 @@ render(){
             
           
           <br></br>
-          <div className="flex">
-              <div className="container">
-            <h3>
-            <img className="round" id="image" src={require("../BlakeTClark.jpg")} alt="blake" style={{ height: "250px" }}/>
-          </h3>
-          <div className="middle">
-            <div className="text">
-            <a className="blue" id="word" href="https://flowingfreeride.com/" target="_blank"> Welcome! I Created An Online Snowboard School Visit Flowingfreeride!</a>
-            </div>
-          </div>
-          </div>
-
-          </div>
+ 
           <div id="container">
-<p className="p"><a href="https://en.wikipedia.org/wiki/Red">
-    <em id="word">Demo & Portfolio Work</em>
-  </a></p>
+<p className="p">
+    <em id="demo">Demo & Portfolio Work</em>
+  </p>
 </div>
           <div className="flex">
-          <h1 className="word"><strong>Corporate TV and video work for Sandy City.</strong></h1>
+          <h1 className="rokkitt">Sandy City</h1>
           </div>
           <div className="flex">
           <iframe title="vimeo-player" src="https://player.vimeo.com/video/289768833" width="640" height="360" frameborder="0" allowfullscreen></iframe>
@@ -47,43 +35,17 @@ render(){
         </div>
         <hr></hr> 
         <div className="flex">
-          <h1 className="word"><strong>Corporate TV and video work for Utah Division of Air Quality.</strong></h1>
+          <h1 className="rokkitt">DEQ/DAQ Utah State Government</h1>
           </div>
           <div className="flex">
           <iframe src="https://player.vimeo.com/video/51310539" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
           <hr></hr>
           <div className="flex">
-          <h1 className="word"><strong>Corporate Video and photography work for Vail Resorts.</strong> </h1>
+          <h1 className="rokkitt">Vail Resorts</h1>
           </div>
           <br></br>
 
-          
-          <section>
-        
-    <div className="flex">
-          <h2>
-            <img src={require("../Scott Hero.png")} alt="scott" style={{ height: "300px" }}/>
-            <img src={require("../Scott3.jpg")} alt="scott" style={{ height: "300px" }}/>
-            </h2>
-            </div>
-     
-    <div className="flex">
-            <h2>
-            <img src={require("../Sue Hero.png")} alt="scott" style={{ height: "300px" }}/>
-            <img src={require("../Sue3.jpg")} alt="scott" style={{ height: "300px" }}/>
-          </h2>
-          </div>
-     
-   
-    <div className="flex">
-          <h2>
-            <img src={require("../Scott1.jpg")} alt="scott" style={{ height: "300px" }}/>
-            <img src={require("../Scott2.jpg")} alt="scott" style={{ height: "300px" }}/>
-          </h2>
-          </div>
-
-</section>
            <br></br>
           <div className="flex">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/FwJUfwfp2dU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -93,9 +55,35 @@ render(){
           <iframe width="560" height="315" src="https://www.youtube.com/embed/er5MByVYbPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/w8iuxSEHSS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
+          <br></br>
+          <section>
+        
+        <div className="flex">
+              <h2>
+                <img src={require("../Scott Hero.png")} alt="scott" style={{ height: "300px" }}/>
+                <img src={require("../Scott3.jpg")} alt="scott" style={{ height: "300px" }}/>
+                </h2>
+                </div>
+         
+        <div className="flex">
+                <h2>
+                <img src={require("../Sue Hero.png")} alt="scott" style={{ height: "300px" }}/>
+                <img src={require("../Sue3.jpg")} alt="scott" style={{ height: "300px" }}/>
+              </h2>
+              </div>
+         
+       
+        <div className="flex">
+              <h2>
+                <img src={require("../Scott1.jpg")} alt="scott" style={{ height: "300px" }}/>
+                <img src={require("../Scott2.jpg")} alt="scott" style={{ height: "300px" }}/>
+              </h2>
+              </div>
+    
+    </section>
           <hr></hr>
           <div className="flex">
-          <h1 className="word"><strong>Flowing Freeride Online Snowboard School.</strong></h1>
+          <h1 className="rokkitt">Flowing Freeride Online Snowboard School</h1>
           </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/yib88ACUne4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/xaaLh71z4gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

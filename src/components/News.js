@@ -9,26 +9,33 @@ import '../App.css';
 class News extends React.Component{
 render(){
   return (
+    
     <div>
         
 
        <div className="Logo">
-
+       <br/> 
+          <br/> 
+          <br/> 
+          <br/> 
          
           <div className="flex" id="rokkitt">
-            
-          <h1>This is my Online Snowboard School Blog Flowing Freeride. Enjoy!</h1>
+          <br/> 
+          <br/> 
+          <br/> 
+          <br/> 
+          <h1>Learn How To Snowboard Online With Flowing Freeride!!</h1>
           </div>
           <br></br>
           <div className="flex" id="rokkitt">
             
-            <h1>Website: <a className="red" href="https://flowingfreeride.com/free-snowboard-tips/">
-                  Flowing Freeride Tips & Bribes</a>
+            <h1>Want Free Stuff?!! <a className="red" href="https://flowingfreeride.com/free-snowboard-tips/">
+                  Click For Free Snowboard News, Tips & Bribes!!</a>
             </h1>
             </div>
           <div id="container">
-<p className="p"><a href="https://en.wikipedia.org/wiki/Red">
-    <em id="word">Welcome To My Site!</em>
+<p className="p"><a href="https://flowingfreeride.com/">
+    <em id="word">Learn To RideRight™!</em>
   </a></p>
 </div>
 

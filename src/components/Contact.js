@@ -72,9 +72,9 @@ render(){
         <div className = "Patty">
           <br></br>
           <div id="container">
-<p className="p"><a href="https://en.wikipedia.org/wiki/Red">
-    <em id="word">Send Me Feedback!</em>
-  </a></p>
+<p className="p">
+    <em id="rokkitt">For Booking/Avavailability Fill Out This Form</em>
+  </p>
 </div>
         </div>
         <br>
@@ -92,8 +92,7 @@ render(){
                 onChange={this.handleChange}
                 required
               />
-              <br></br>
-              <br></br>
+          
               <input
                 type="input"
                 placeholder="Last Name"
@@ -105,6 +104,16 @@ render(){
               <br></br>  
               <br></br>
             <input
+                type="input"
+                placeholder="Subject"
+                name="subject"
+                value={this.state.subject}
+                onChange={this.handleChange}
+                required
+              />
+              <br></br>
+              <br></br>
+              <input
                 type="email"
                 placeholder="Email"
                 name="email"
@@ -118,7 +127,7 @@ render(){
             rows = "5" cols = "50" name = "description"
             className="content"
             type="input"
-            placeholder="Content"
+            placeholder="Message"
             name="content"
             value={this.state.content}
             onChange={this.handleChange}

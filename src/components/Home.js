@@ -47,12 +47,12 @@ class Home extends React.Component {
             <a className="blue"> Blake.17clark@gmail.com</a>
           </h1>
           </div>
-          <hr />
-          <br />
+          <hr/>
+          <br/>
           <div className="flex" id="rokkitt">
           <section>
           <h1 className="red"><strong>PROJECTS</strong></h1>
-          <p><strong>Ambi Quality Assurance</strong> | Salt Lake City, Utah | Assistant Developer| 7/2019–Present</p>
+          <p><strong>Ambi Quality Assurance</strong> | Salt Lake City, Utah | Assistant Developer| 7/2019–9/2019 {" "}</p>
             <li>Ran QA tests on Ambi platform to debug student interaction platform</li>
             <li>
             Created different types of functionality for Ambi UI using Jira, QA and Agile
@@ -70,7 +70,7 @@ class Home extends React.Component {
             <br/>
             <p><strong>Job Track App</strong> | Web Developer | Salt Lake City, Utah | 7/2019–Present {" "}</p>
             <li>
-            Developed job tracker full stack app with mob programming group style with functioning CRUD at Helio 
+            Developed job tracker FS app with mob programming functioning CRUD at Helio 
             </li>
             </section>
             </div>
