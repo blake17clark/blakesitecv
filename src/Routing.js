@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import News from "./components/News";
+import Resume from "./components/Resume";
 
 class Routing extends React.Component{
 
@@ -18,6 +19,8 @@ class Routing extends React.Component{
           <Link  to="/About/">About</Link>
 
           <Link to="/News/">News</Link>
+
+          <Link to="/Resume/">Resume</Link>
 
           <Link to="/Contact/">Contact</Link>
           <Link className="myname" to="">Blake Tholen Clark</Link>
@@ -34,6 +37,7 @@ class Routing extends React.Component{
         <Route path="/About/" component={About} />
         <Route path="/Contact/" component={Contact} />
         <Route path="/News/" component={News} />
+        <Route path="/Resume/" component={Resume} />
         </Switch>
     </Router>
   );

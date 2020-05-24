@@ -125,11 +125,11 @@ render(){
               <br></br>
             <textarea
             rows = "5" cols = "50" name = "description"
-            className="content"
+            className="contact"
             type="input"
-            placeholder="Content"
-            name="content"
-            value={this.state.content}
+            placeholder="Contact"
+            name="contact"
+            value={this.state.contact}
             onChange={this.handleChange}
             required
           />     
@@ -151,8 +151,8 @@ render(){
             <br/>
             <div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i class="fab fa-vimeo" id="bigger"></i></a>
-            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i class="fab fa-facebook-square" id="bigger"></i></a>
+            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i className="fab fa-vimeo" id="bigger"></i></a>
+            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i className="fab fa-facebook-square" id="bigger"></i></a>
             <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="_blank"><i class="fab fa-youtube" id="bigger"></i></a>
             <a href="https://www.linkedin.com/in/blaketholenclark/" target="_blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
             <a href="https://twitter.com/@flowingfreeride" target="_blank"><i class="fab fa-twitter-square" id="bigger"></i></a>

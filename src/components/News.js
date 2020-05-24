@@ -22,8 +22,7 @@ render(){
           <div className="flex" id="rokkitt">
           <br/> 
           <br/> 
-          <br/> 
-          <br/> 
+  
           <h1>Learn How To Snowboard Online With Flowing Freeride!!</h1>
           </div>
           <br></br>

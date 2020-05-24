@@ -29,10 +29,8 @@ render(){
           <br></br>
           </div>
           <div className="flex">
-          <iframe title="whodat" width="560" height="315" src="https://www.youtube.com/embed/gFH11JSWv-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <br></br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/n_V8duAv6B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+          <iframe src="https://player.vimeo.com/video/368111857" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>          <br></br>
+          <iframe src="https://player.vimeo.com/video/368111158" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>        </div>
         <hr></hr> 
         <div className="flex">
           <h1 className="rokkitt">DEQ/DAQ Utah State Government</h1>
