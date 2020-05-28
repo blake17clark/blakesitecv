@@ -149,7 +149,7 @@ render(){
             <br/>
             <br/>
             <br/>
-            <div>
+            <div className="flex">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <a href="https://vimeo.com/blaketholenclark" target="_blank"><i className="fab fa-vimeo" id="bigger"></i></a>
             <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i className="fab fa-facebook-square" id="bigger"></i></a>

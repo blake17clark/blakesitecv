@@ -28,16 +28,10 @@ class Home extends React.Component {
           <hr></hr>
           <div className="flex" id="rokkitt">
           <br></br>
-          <h1 id="rokkitt">Experienced in Corporate and Independent Productions: 801.712.2824</h1>
+          <h1 id="rokkitt">Experienced in Corporate and Independent Productions</h1>
           </div>
 
-          <div className="flex" id="rokkitt">
-            <h1>
-            <a className="blue" href="https://www.linkedin.com/feed/" target="_blank"> LINKEDIN |</a>
-            <a className="blue" href="https://github.com/blake17clark" target="_blank"> GitHub |</a>
-            <a className="blue"> Blake.17clark@gmail.com</a>
-          </h1>
-          </div>
+ 
           <div id="container">
 <p className="p">
     <em id="demo">Promotional Reel</em>
