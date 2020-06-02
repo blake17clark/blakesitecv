@@ -125,11 +125,11 @@ render(){
               <br></br>
             <textarea
             rows = "5" cols = "50" name = "description"
-            className="contact"
+            className="content"
             type="input"
-            placeholder="Contact"
-            name="contact"
-            value={this.state.contact}
+            placeholder="Content"
+            name="content"
+            value={this.state.content}
             onChange={this.handleChange}
             required
           />     
