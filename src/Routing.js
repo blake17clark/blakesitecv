@@ -25,6 +25,7 @@ class Routing extends React.Component{
           <Link to="/Contact/">Contact</Link>
           <Link className="myname" to="">Blake Tholen Clark</Link>
           
+          
           </div>
         
           
@@ -38,6 +39,7 @@ class Routing extends React.Component{
         <Route path="/Contact/" component={Contact} />
         <Route path="/News/" component={News} />
         <Route path="/Resume/" component={Resume} />
+        
         </Switch>
     </Router>
   );
