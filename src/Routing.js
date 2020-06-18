@@ -14,7 +14,7 @@ class Routing extends React.Component{
       <div>
         <nav>
         <div className="topnav" id="myTopnav">
-          <Link  id="home" to="/">Home</Link>
+          <Link  id="home" to="/">Reels</Link>
 
           <Link  to="/About/">About</Link>
 
@@ -24,6 +24,10 @@ class Routing extends React.Component{
 
           <Link to="/Contact/">Contact</Link>
           <Link className="myname" to="">Blake Tholen Clark</Link>
+          <Link href="javascript:void(0);" className="icon" onclick="myFunction()">
+            {/* <i className="fa fa-bars"></i> */}
+            </Link>
+
           
           
           </div>
