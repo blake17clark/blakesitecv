@@ -41,6 +41,7 @@ class Routing extends React.Component{
         <Route path="/Resume/" component={Resume} />
         
         </Switch>
+        
     </Router>
   );
 }
