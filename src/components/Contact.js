@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import * as emailjs from 'emailjs-com';
 
 import '../App.css';
@@ -125,7 +125,7 @@ render(){
               <br></br>
             <textarea
             rows = "5" cols = "50" name = "description"
-            className="content"
+            className="subject"
             type="input"
             placeholder="Content"
             name="content"
@@ -151,11 +151,11 @@ render(){
             <br/>
             <div className="flex">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i className="fab fa-vimeo" id="bigger"></i></a>
-            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i className="fab fa-facebook-square" id="bigger"></i></a>
-            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="_blank"><i class="fab fa-youtube" id="bigger"></i></a>
-            <a href="https://www.linkedin.com/in/blaketholenclark/" target="_blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
-            <a href="https://twitter.com/@flowingfreeride" target="_blank"><i class="fab fa-twitter-square" id="bigger"></i></a>
+            <a href="https://vimeo.com/blaketholenclark" target="blank"><i className="fab fa-vimeo" id="bigger"></i></a>
+            <a href="https://www.facebook.com/blake.t.clark" target="blank"><i className="fab fa-facebook-square" id="bigger"></i></a>
+            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="blank"><i className="fab fa-youtube" id="bigger"></i></a>
+            <a href="https://www.linkedin.com/in/blaketholenclark/" target="blank"><i className="fab fa-linkedin-in" id="bigger"></i></a>
+            <a href="https://twitter.com/@flowingfreeride" target="blank"><i className="fab fa-twitter-square" id="bigger"></i></a>
           </div>
           </div>
             </div>

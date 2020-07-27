@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 import '../App.css';
 
@@ -23,20 +23,20 @@ render(){
           <h1 className="rokkitt">Sandy City</h1>
           </div>
           <div className="flex">
-          <iframe title="vimeo-player" src="https://player.vimeo.com/video/289768833" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          <iframe title="We Will Never Forget" src="https://player.vimeo.com/video/289768833" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           <br></br>
-          <iframe src="https://player.vimeo.com/video/289774752" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe title="Healing Field" src="https://player.vimeo.com/video/289774752" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           <br></br>
           </div>
           <div className="flex">
-          <iframe src="https://player.vimeo.com/video/368111857" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>          <br></br>
-          <iframe src="https://player.vimeo.com/video/368111158" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>        </div>
+          <iframe title="Jr. Firefighters" src="https://player.vimeo.com/video/368111857" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>          <br></br>
+          <iframe title="Scald Burns" src="https://player.vimeo.com/video/368111158" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>        </div>
         <hr></hr> 
         <div className="flex">
           <h1 className="rokkitt">DEQ/DAQ Utah State Government</h1>
           </div>
           <div className="flex">
-          <iframe src="https://player.vimeo.com/video/51310539" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe title="It's Up To All Of Us" src="https://player.vimeo.com/video/51310539" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
           <hr></hr>
           <div className="flex">
@@ -46,12 +46,12 @@ render(){
 
            <br></br>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/FwJUfwfp2dU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/1O1kYq5gEII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Reaching Model" width="560" height="315" src="https://www.youtube.com/embed/FwJUfwfp2dU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Pond Skim" width="560" height="315" src="https://www.youtube.com/embed/1O1kYq5gEII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/er5MByVYbPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/w8iuxSEHSS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Spring Conditions" width="560" height="315" src="https://www.youtube.com/embed/er5MByVYbPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Mountian Safety" width="560" height="315" src="https://www.youtube.com/embed/w8iuxSEHSS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br></br>
           <section>
@@ -84,42 +84,42 @@ render(){
           <h1 className="rokkitt">Flowing Freeride Online Snowboard School</h1>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/yib88ACUne4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/xaaLh71z4gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Learn Snowboard Carving" width="560" height="315" src="https://www.youtube.com/embed/yib88ACUne4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Teaching Kids Part 1" width="560" height="315" src="https://www.youtube.com/embed/xaaLh71z4gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_o-NmpRIE2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qW9nBismxIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Advance Carving" width="560" height="315" src="https://www.youtube.com/embed/_o-NmpRIE2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Snowboard Steering" width="560" height="315" src="https://www.youtube.com/embed/qW9nBismxIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/BoxXjVIYhLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ySgVqPZyqfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Advance Snowboard Getting Air" width="560" height="315" src="https://www.youtube.com/embed/BoxXjVIYhLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Snowboard Stance" width="560" height="315" src="https://www.youtube.com/embed/ySgVqPZyqfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/QhUaN9L3xlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/c-pPKcjy3Cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Dolphin Turns" width="560" height="315" src="https://www.youtube.com/embed/QhUaN9L3xlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Dynamic Flex Extend" width="560" height="315" src="https://www.youtube.com/embed/c-pPKcjy3Cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/6lnMUrQUFyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/pu4C5EV_Tjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Steep And Alignement" width="560" height="315" src="https://www.youtube.com/embed/6lnMUrQUFyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Dynamic Rhythm" width="560" height="315" src="https://www.youtube.com/embed/pu4C5EV_Tjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/1QiwEWHIIEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/pyw6H9_MdJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Riding Moguls" width="560" height="315" src="https://www.youtube.com/embed/1QiwEWHIIEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="FFR Online Snowboard School" width="560" height="315" src="https://www.youtube.com/embed/pyw6H9_MdJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ryh2Hw4E2lA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/wdqSdIQjWSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Teaching Kids Part 3" width="560" height="315" src="https://www.youtube.com/embed/ryh2Hw4E2lA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="About FFR" width="560" height="315" src="https://www.youtube.com/embed/wdqSdIQjWSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br/>
           <hr></hr>
           <div className="flex">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i class="fab fa-vimeo" id="bigger"></i></a>
-            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i class="fab fa-facebook-square" id="bigger"></i></a>
-            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="_blank"><i class="fab fa-youtube" id="bigger"></i></a>
-            <a href="https://www.linkedin.com/in/blaketholenclark/" target="_blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
-            <a href="https://twitter.com/@flowingfreeride" target="_blank"><i class="fab fa-twitter-square" id="bigger"></i></a>
+            <a href="https://vimeo.com/blaketholenclark" target="blank"><i class="fab fa-vimeo" id="bigger"></i></a>
+            <a href="https://www.facebook.com/blake.t.clark" target="blank"><i class="fab fa-facebook-square" id="bigger"></i></a>
+            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="blank"><i class="fab fa-youtube" id="bigger"></i></a>
+            <a href="https://www.linkedin.com/in/blaketholenclark/" target="blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
+            <a href="https://twitter.com/@flowingfreeride" target="blank"><i class="fab fa-twitter-square" id="bigger"></i></a>
           </div>
     </div>
     </div> 

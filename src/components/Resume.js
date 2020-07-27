@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "../App.css";
 
@@ -41,10 +41,10 @@ class Resume extends React.Component {
 
           <div className="flex" id="rokkitt">
             <h1>
-            <a className="blue" href="https://vimeo.com/blaketholenclark" target="_blank"> REELS |</a>
-            <a className="blue" href="https://www.linkedin.com/feed/" target="_blank"> LINKEDIN |</a>
-            <a className="blue" href="https://github.com/blake17clark" target="_blank"> GitHub |</a>
-            <a className="blue"> Blake.17clark@gmail.com</a>
+            <a className="blue" href="https://vimeo.com/blaketholenclark" target="blank"> REELS |</a>
+            <a className="blue" href="https://www.linkedin.com/feed/" target="blank"> LINKEDIN |</a>
+            <a className="blue" href="https://github.com/blake17clark" target="blank"> GitHub |</a>
+            <a className="blue" href="https://mail.google.com/" target="blank"> Blake.17clark@gmail.com</a>
           </h1>
           </div>
           <hr/>
@@ -86,7 +86,7 @@ class Resume extends React.Component {
             Awarded: Best Cinematography, Effects (editing), Acting, Best Overall Film (2nd place) 
             </li>
             <br/>
-            <iframe src="https://player.vimeo.com/video/281366586" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe title="P.O.V." src="https://player.vimeo.com/video/281366586" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
             </section>
             </div>
             <br />
@@ -108,17 +108,17 @@ class Resume extends React.Component {
             </li>
             <p>
               Websites:{" "}
-              <a className="blue" href="https://flowingfreeride.com/" target="_blank">
+              <a className="blue" href="https://flowingfreeride.com/" target="blank">
                 Flowingfreeride.com,
               </a>{" "}
-              <a className="blue" href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw/featured" target="_blank">
+              <a className="blue" href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw/featured" target="blank">
                 Flowing Freeride YouTube
               </a>{" "}
-              <a className="blue" href="https://snowboardclass.com/" target="_blank">
+              <a className="blue" href="https://snowboardclass.com/" target="blank">
                 & Snowboardclass.com
               </a>
             </p>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/wdqSdIQjWSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Take Me Pro" width="640" height="360" src="https://www.youtube.com/embed/wdqSdIQjWSU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </section>
           </div>
           <br />
@@ -144,13 +144,13 @@ class Resume extends React.Component {
             </li>
             <p>
               Video Work:{" "}
-              <a className="blue" href="https://youtu.be/1O1kYq5gEII" target="_blank">
+              <a className="blue" href="https://youtu.be/1O1kYq5gEII" target="blank">
                 Pond Skim,
               </a>{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=FwJUfwfp2dU" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=FwJUfwfp2dU" target="blank">
                 Teaching Model
               </a>{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=er5MByVYbPc" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=er5MByVYbPc" target="blank">
                 {" "}
                 & Spring Conditons.
               </a>
@@ -170,18 +170,18 @@ class Resume extends React.Component {
             </li>
             <p>
               Video Work:{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=gFH11JSWv-k&t=11s" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=gFH11JSWv-k&t=11s" target="blank">
                 Scald Burns,
               </a>{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=-mM5l0pdfWA" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=-mM5l0pdfWA" target="blank">
                 Remember 9-11
               </a>{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=i8mCnmAkQRE" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=i8mCnmAkQRE" target="blank">
                 {" "}
                 & Healing Field.
               </a>
             </p>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/i8mCnmAkQRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Healing Field" width="640" height="360" src="https://www.youtube.com/embed/i8mCnmAkQRE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
             </div>
             <br />
@@ -206,7 +206,7 @@ class Resume extends React.Component {
               for live show
             </li>
             <br/>
-            <iframe src="https://player.vimeo.com/video/114386906" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe title="Animation Graphics" src="https://player.vimeo.com/video/114386906" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
            </section>
            </div>
             <br />
@@ -225,7 +225,7 @@ class Resume extends React.Component {
               message to public
             </li>
             <br/>
-            <iframe src="https://player.vimeo.com/video/51310539" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe title="Up To Us" src="https://player.vimeo.com/video/51310539" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
             </section>
             </div>
             <br />
@@ -239,10 +239,10 @@ class Resume extends React.Component {
             </li>
             <p>
               Productions Crewed On:{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=x8_iD3MW4ms" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=x8_iD3MW4ms" target="blank">
                 SLC Auditions
               </a>{" "}
-              <a className="blue" href="https://www.youtube.com/watch?v=3WY8zSDGahM" target="_blank">
+              <a className="blue" href="https://www.youtube.com/watch?v=3WY8zSDGahM" target="blank">
                 & SLC Show
               </a>
             </p>
@@ -266,7 +266,7 @@ class Resume extends React.Component {
               producer position
             </li>
             <br/>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/sgC8-lf7pnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Utah Powder Day" width="640" height="360" src="https://www.youtube.com/embed/sgC8-lf7pnY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </section>
           </div>
             <br />
@@ -291,7 +291,7 @@ class Resume extends React.Component {
             </li>
             <li>Final film screened at the National Film Board of Canada</li>
             <br/>
-            <iframe src="https://player.vimeo.com/video/50436501" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe title="Les Recontres" src="https://player.vimeo.com/video/50436501" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
           </section>
           </div>
           <br />
@@ -377,17 +377,17 @@ class Resume extends React.Component {
           <br/>
           <br/>
           <div id="container" >
-<p className="p"><a href="https://www.imdb.com/name/nm6087926/?ref_=fn_al_nm_1" target="_blank">
+<p className="p"><a href="https://www.imdb.com/name/nm6087926/?ref_=fn_al_nm_1" target="blank">
     <em id="word">Blake Tholen Clark IMDb</em>
   </a></p>
           <div className="flex">
             <section>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <a href="https://vimeo.com/blaketholenclark" target="_blank"><i class="fab fa-vimeo" id="bigger"></i></a>
-            <a href="https://www.facebook.com/blake.t.clark" target="_blank"><i class="fab fa-facebook-square" id="bigger"></i></a>
-            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="_blank"><i class="fab fa-youtube" id="bigger"></i></a>
-            <a href="https://www.linkedin.com/in/blaketholenclark/" target="_blank"><i class="fab fa-linkedin-in" id="bigger"></i></a>
-            <a href="https://twitter.com/@flowingfreeride" target="_blank"><i class="fab fa-twitter-square" id="bigger"></i></a>
+            <a href="https://vimeo.com/blaketholenclark" target="blank"><i className="fab fa-vimeo" id="bigger"></i></a>
+            <a href="https://www.facebook.com/blake.t.clark" target="blank"><i className="fab fa-facebook-square" id="bigger"></i></a>
+            <a href="https://www.youtube.com/channel/UCXbdLsa_eeLstY2TZEyWXdw" target="blank"><i className="fab fa-youtube" id="bigger"></i></a>
+            <a href="https://www.linkedin.com/in/blaketholenclark/" target="blank"><i className="fab fa-linkedin-in" id="bigger"></i></a>
+            <a href="https://twitter.com/@flowingfreeride" target="blank"><i className="fab fa-twitter-square" id="bigger"></i></a>
           </section>
           </div>
 

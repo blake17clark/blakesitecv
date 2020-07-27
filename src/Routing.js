@@ -7,11 +7,18 @@ import News from "./components/News";
 import Resume from "./components/Resume";
 
 class Routing extends React.Component{
+  // myStyle = {
+  //   borderStyle: "dotted dash",
+  //   marginTop: "0px",
+  //   position: "absolute",
+  //   right: "40%"
+  // }
 
     render() {
   return (
     <Router>
       <div>
+        {/* <div style={this.myStyle}>Blake Tholen Clark</div> */}
         <nav>
         <div className="topnav" id="myTopnav">
           <Link  id="home" to="/">Reels</Link>
@@ -24,8 +31,8 @@ class Routing extends React.Component{
 
           <Link to="/Contact/">Contact</Link>
           <Link className="myname" to="">Blake Tholen Clark</Link>
-          <Link href="javascript:void(0);" className="icon" onclick="myFunction()">
-            {/* <i className="fa fa-bars"></i> */}
+          <Link href="javascript:void(0);" className="icon" onClick="myFunction()">
+            <i className="fa fa-bars"></i>
             </Link>
 
           
