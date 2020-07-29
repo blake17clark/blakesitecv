@@ -31,9 +31,9 @@ class Routing extends React.Component{
 
           <Link to="/Contact/">Contact</Link>
           <Link className="myname" to="">Blake Tholen Clark</Link>
-          <Link href="javascript:void(0);" className="icon" onClick="myFunction()">
+          {/* <Link href="javascript:void(0);" className="icon" onClick="myFunction()">
             <i className="fa fa-bars"></i>
-            </Link>
+            </Link> */}
 
           
           
