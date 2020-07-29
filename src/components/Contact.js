@@ -35,7 +35,7 @@ class Contact extends React.Component{
         "gmail", "contact",
         this.state, "user_0nNsfJBF6xSvaKUFotdH9"
       )
-         .then(alert ("I Will Respond Shortly Cheers!"))
+         .then(alert (`I Will Respond Shortly ${this.state.firstName} ${this.state.lastName} Cheers!`))
          .then(document.location.reload(true))
     //     this.setState(
     //         {
