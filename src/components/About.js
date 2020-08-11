@@ -28,23 +28,8 @@ render(){
                 </h2>
           <br></br>
           </div>
-          <div className="flex">
-          <h2>
-                <img src={require("../grape5.JPG")} alt="grape" style={{ height: "550px" }}/>
-                </h2>
-          <br></br>
-          </div>
-          <div className="flex">
-          <h2>
-                <img src={require("../Valen1.JPG")} alt="Valen" style={{ height: "500px" }}/>
-                </h2>
-                </div>
-          <br></br>
-          <div className="flex">
-          <h2>
-                <img src={require("../DanteKnee.JPG")} alt="Dante" style={{ height: "450px" }}/>
-                </h2>
-                </div>
+          
+      
           <br></br>
           <div className="flex">
           <h2>
