@@ -24,7 +24,17 @@ render(){
           </div>
           <div className="flex">
           <h2>
-                <img src={require("../SmokePepper8244.jpg")} alt="spepper" style={{ height: "600px" }}/>
+                <img src={require("../DrinkWeek.jpg")} alt="DW" style={{ height: "400px" }}/>
+                <img src={require("../DrinkWeekContest.jpg")} alt="DWC" style={{ height: "400px" }}/>
+                </h2>
+          <br></br>
+          
+          </div>
+
+          <div className="flex">
+          
+          <h2>
+                <img src={require("../SmokePepper8244.jpg")} alt="spepper" style={{ height: "500px" }}/>
                 </h2>
           <br></br>
           </div>
