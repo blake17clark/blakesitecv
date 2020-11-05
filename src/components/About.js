@@ -41,6 +41,13 @@ render(){
           <div className="flex">
           
           <h2>
+                <img src={require("../Train Wheel.JPG")} alt="spepper" style={{ height: "500px" }}/>
+                </h2>
+          <br></br>
+          </div>
+          <div className="flex">
+          
+          <h2>
                 <img src={require("../SmokePepper8244.jpg")} alt="spepper" style={{ height: "500px" }}/>
                 </h2>
           <br></br>
