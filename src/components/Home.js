@@ -19,8 +19,7 @@ class Home extends React.Component {
 
 <div className="flex">
           <h1 className="red" id="rokkitt">
-            Filmmaker TV Producer/Director
-            | Full Stack Developer
+            Painter Model Builder
           </h1>
           </div>
           </div>
@@ -28,33 +27,33 @@ class Home extends React.Component {
           <hr></hr>
           <div className="flex" id="rokkitt">
           <br></br>
-          <h1 id="rokkitt">Experienced in Corporate and Independent Productions</h1>
+          <h1 id="rokkitt">Experienced in Minatures</h1>
           </div>
 
  
           <div id="container">
 <p className="p">
-    <em id="demo">Promotional Reel</em>
+    <em id="demo">LS3 Art Studios</em>
   </p>
 </div>
           <div className="flex">
           
           </div>
           <div className="flex">
-          <iframe title="Promo Reel" src="https://player.vimeo.com/video/79019041" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>          <br></br>
+          <iframe title="Promo Reel" src="https://www.youtube.com/embed/ecXT6hhbTNU" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>          <br></br>
           <br></br>
           </div>
           <br></br>
           <div id="container">
 <p className="p">
-    <em id="demo">London Indie Reel</em>
+    <em id="demo">Leman Russ Tank</em>
   </p>
 </div>
           <div className="flex">
           <h1 className="rokkitt"></h1>
           </div>
           <div className="flex">
-          <iframe title="London Indie Reel" src="https://player.vimeo.com/video/221223922" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+          <iframe title="London Indie Reel" src="https://www.youtube.com/embed/Pgza0AAdT6o" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
           <br></br>
           </div>
           <br></br>

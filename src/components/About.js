@@ -16,7 +16,7 @@ render(){
  
           <div id="container">
 <p className="p">
-    <em id="demo">Demo & Portfolio Work</em>
+    <em id="demo">Minature Models & Painting</em>
   </p>
 </div>
 <div className="flex">
