@@ -30,6 +30,13 @@ render(){
           <br></br>
           
           </div>
+          <div className="flex">
+          
+          <h2>
+                <img src={require("../Leaf Light.JPG")} alt="spepper" style={{ height: "500px" }}/>
+                </h2>
+          <br></br>
+          </div>
 
           <div className="flex">
           
