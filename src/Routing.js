@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import News from "./components/News";
-import Resume from "./components/Resume";
+
 
 class Routing extends React.Component{
   // myStyle = {
@@ -21,16 +21,14 @@ class Routing extends React.Component{
         {/* <div style={this.myStyle}>Blake Tholen Clark</div> */}
         <nav>
         <div className="topnav" id="myTopnav">
-          <Link  id="home" to="/">Reels</Link>
+          <Link  id="home" to="/">Home</Link>
 
           <Link  to="/About/">About</Link>
 
           <Link to="/News/">News</Link>
 
-          <Link to="/Resume/">Resume</Link>
-
           <Link to="/Contact/">Contact</Link>
-          <Link className="myname" to="">Blake Tholen Clark</Link>
+          <Link className="myname" to="">LS3</Link>
           {/* <Link href="javascript:void(0);" className="icon" onClick="myFunction()">
             <i className="fa fa-bars"></i>
             </Link> */}
@@ -49,7 +47,7 @@ class Routing extends React.Component{
         <Route path="/About/" component={About} />
         <Route path="/Contact/" component={Contact} />
         <Route path="/News/" component={News} />
-        <Route path="/Resume/" component={Resume} />
+        
         
         </Switch>
         

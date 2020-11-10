@@ -31,7 +31,7 @@
 }
 
 #demo {
-  font-family: 'Poppins', 'Montserrat', 'times', 'helvetica';
+  font-family: 'Avenir Next Pro', 'Futura PT';
   font-size: 55px;
   
 }
@@ -130,7 +130,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(7, 85, 99);
   overflow: hidden;
 }
 
@@ -138,22 +138,22 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #f1b1b1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 27px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(236, 232, 232);
-  color: black;
+  background-color: rgb(226, 194, 11);
+  color: rgb(180, 21, 21);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: rgb(184, 32, 83);
+  background-color: rgb(35, 21, 223);
   color: white;
 }
 

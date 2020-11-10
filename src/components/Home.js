@@ -18,7 +18,7 @@ class Home extends React.Component {
           <div className="flex">
 
 <div className="flex">
-          <h1 className="red" id="rokkitt">
+          <h1 className="red" id="demo">
             Painter Model Builder
           </h1>
           </div>
@@ -27,7 +27,7 @@ class Home extends React.Component {
           <hr></hr>
           <div className="flex" id="rokkitt">
           <br></br>
-          <h1 id="rokkitt">Experienced in Minatures</h1>
+          <h1 id="demo">Experienced in Minatures</h1>
           </div>
 
  
@@ -59,14 +59,14 @@ class Home extends React.Component {
           <br></br>
           <div id="container">
 <p className="p">
-    <em id="demo">Graphic/Animation Reel</em>
+    <em id="demo">Ultramarines Chapter Colors</em>
   </p>
 </div>
           <div className="flex">
           <h1 className="rokkitt"></h1>
           </div>
           <div className="flex">
-          <iframe title="Graphics Reel" src="https://player.vimeo.com/video/114386906" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>          <br></br>
+          <iframe title="Graphics Reel" src="https://www.youtube.com/embed/iwl6F3Zez9M" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>          <br></br>
           </div>
           <br></br>
           <br></br>
@@ -74,7 +74,7 @@ class Home extends React.Component {
 
           <div id="container" >
 <p className="p"><a href="https://www.imdb.com/name/nm6087926/?ref_=fn_al_nm_1" target="blank">
-    <em id="word">Blake Tholen Clark IMDb</em>
+    <em id="word">LS3</em>
   </a></p>
 
   <br></br>
